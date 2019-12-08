@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/ab9dd171cb.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h1>WEATHER <i class="fas fa-globe-europe"></i></h1>
+    <p>
+
+      <div class= buttonZero>
+          <button class="button button4">Current location</button>
+      </div>
+
+      <div class="form"
+      <form id="signup-form">
+                <input type="text" id="text-input" placeholder="Enter a city..." />
+                <input type="submit" value="Search" />
+              </form>
+            </div>
+            </div>
+            
+            
+    </p>
+
+    
+
+    <div class="row">
+        <div class="col-md-3">
+        <div class="card card-1">
+          <div class="city">
+         <h2>Funchal</h2>
+          </div> 
+          <br>
+         <div class="date">
+          <h3>Sunday, 13:00</h3>      
+        </div>
+          <strong> 
+          <span class="temp" id="temp"><h4>Temperature</h4></span
+          <span class="cf">
+            <a href="#" id="celsius-link">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a>
+          </span><i class="fas fa-cloud-sun"></i>
+          </strong>Partly clouded and light winds
+          </div>
+          </div>  
+          <div class="col-md-3">
+              <div class="card card-2">Chance of Rain: 74%
+                  <br>Humidity: 73% 
+                  <br>Pressure: 1028mb
+                  <br>Cloud: 50%
+                  <br>Wind: 27 km/h
+                  <br>Visibility:10 km
+                  <br>Moon Phase: waxing
+                </div>
+                </div>  
+                </div>   
+        
+            <br>   
+            <div class="btn-group" role="group" aria-label="Basic example"><button type="button" class="btn btn-dark">Sunday <br><i class="fas fa-cloud-sun"></i> <br> 22º 17º</button>
+            <button type="button" class="btn btn-dark">Monday <br><i class="fas fa-cloud-sun"></i><br> 21º 18º</button>
+            <button type="button" class="btn btn-dark">Tuesday <br><i class="fas fa-cloud-showers-heavy"></i> <br> 21º 17º</button>
+            <button type="button" class="btn btn-dark">Wednesday <br><i class="fas fa-cloud-sun"></i> <br> 20º 16º</button>
+            <button type="button" class="btn btn-dark">Thursday <br><i class="fas fa-cloud-sun"></i> <br> 19º 16º</button>
+            <button type="button" class="btn btn-dark">Friday <br><i class="fas fa-cloud-sun-rain"></i> <br> 19º 16º</button>
+            <button type="button" class="btn btn-dark">Saturday <br><i class="fas fa-cloud-sun"></i> <br> 19º 17º</button>
+            </div>
+            </div>
+            <p>
+
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

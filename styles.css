@@ -1,0 +1,88 @@
+body {
+ font-family: sans-serif;
+ padding: 0 20px;
+}
+
+h1 {
+ text-align: left;
+ font-weight: 900;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ font-size: 34px;
+ line-height: 48px;
+}
+
+h2 {
+ font-size: 30px;
+ padding: 0;
+ margin: 0;
+}
+
+h3 {
+ font-size: 30px;
+ padding: 0;
+ margin: 0;
+}
+
+.cf {
+ font-size: 3px;
+}
+
+.temp {
+ font-size: 50px;
+ padding: 0;
+}
+
+.form {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size: 20px;
+ text-align: left;
+}
+
+.buttonZero {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size: 20px;
+ text-align: left;
+}
+
+.col-md-3 {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-size: 20px;
+ text-align: center;
+ padding: 20px 20px;
+}
+
+.btn-group {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ font-size: 20px;
+ text-align: center;
+}
+
+.temp {
+ font-size: 40px;
+ padding: 5px;
+}
+
+.card-1 {
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+ transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+ text-align: center;
+}
+
+.card-2 {
+ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+ transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+ text-align: center;
+}
+
+.card-1:hover {
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-2:hover {
+ box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
